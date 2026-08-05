@@ -1,0 +1,23 @@
+.footer {
+  padding: 28px 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-dimmer);
+}
+
+.footer__inner a {
+  color: var(--text-dim);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer__inner a:hover {
+  color: var(--accent-2);
+}
