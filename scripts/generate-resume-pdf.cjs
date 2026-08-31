@@ -6,7 +6,7 @@ const PDFDocument = require("pdfkit");
 
 const profile = {
   name: "Lorie Ann Pascual",
-  title: "Website Manager | WordPress Specialist | Frontend Developer",
+  title: "WordPress Site & SEO Specialist | Website Manager | Website Content Admin",
   location: "Binangonan, Rizal, Philippines",
   phone: "+63 929 383 2505",
   email: "lorie.ann.b.pascual@gmail.com",
@@ -18,13 +18,14 @@ const experience = [
   {
     company: "MBVA 24-7",
     role: "WordPress Developer",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – Aug 2026",
     points: [
       "Led the migration of 3 corporate sites from Divi to Elementor Pro, achieving full mobile responsiveness and improved load times.",
       "Engineered a custom ROI calculator using Gravity Forms and JavaScript to boost lead conversion rates; directed AI-assisted development of a custom WordPress theme, handling all QA, integration, and customization.",
       "Executed technical and on-page SEO, including keyword research, competitor analysis, HTML semantics, and AI-assisted content improvement. Reduced unindexed blog posts from 14 to 2 through internal linking, robots.txt refinements, and custom schema (Ubersuggest, Claude Pro).",
       "Audited and replaced heavyweight plugins with lighter alternatives, improving GTmetrix grade from C to B; maintained security hardening across high-traffic client domains.",
       "Handled job postings and marketing updates across Facebook, Instagram, and LinkedIn.",
+      "Handled DNS administration across client domains — domain transfers, record configuration, and email whitelisting — ensuring traffic and mail are routed correctly.",
     ],
   },
   {
