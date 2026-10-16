@@ -9,8 +9,8 @@ export default function Hero() {
         <p className="hero__eyebrow">Available for freelance &amp; full-time roles</p>
         <h1 className="hero__title">
           Hi, I'm {profile.name.split(" ")[0]} — a{" "}
-          <span className="accent-text">Website Manager</span> specializing
-          in WordPress.
+          <span className="accent-text">Web Developer</span> &amp; SEO / GEO
+          specialist.
         </h1>
         <p className="hero__subtitle">{profile.blurb}</p>
 

@@ -3,7 +3,7 @@ import "./About.css";
 const stats = [
   { value: "4+", label: "Years building & managing sites" },
   { value: "25+", label: "Sites shipped or maintained" },
-  { value: "5", label: "Agencies & teams worked with" },
+  { value: "6", label: "Agencies, teams & clients worked with" },
 ];
 
 export default function About() {
@@ -18,16 +18,18 @@ export default function About() {
         <div className="about__grid">
           <div className="about__text">
             <p>
-              I'm a Website Manager based in the Philippines, specializing in
-              WordPress, working with agencies and clients across
+              I'm a WordPress and full-stack web developer based in the
+              Philippines, working with agencies and clients across
               healthcare, professional services, and e-commerce. My focus is
               owning the full lifecycle of a site — content operations,
               custom theme and page-builder development (Elementor, Divi,
-              Breakdance, Oxygen), technical SEO, and day-to-day maintenance.
+              Breakdance, Oxygen), Next.js applications, technical SEO and
+              GEO, and day-to-day maintenance.
             </p>
             <p>
               I've led site re-platforms, built lead-gen automations with
-              Gravity Forms, Make, and Airtable, resolved indexing and
+              Gravity Forms, GoHighLevel, Make, and Airtable, shipped
+              full-stack apps on Next.js, Vercel, and Supabase, resolved indexing and
               performance issues, and increasingly lean on AI-assisted
               development and prompt engineering to move faster on theme
               builds, content, and SEO. I care about sites that are fast,

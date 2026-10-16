@@ -1,6 +1,6 @@
 export const profile = {
   name: "Lorie Ann Pascual",
-  title: "WordPress Site & SEO Specialist | Website Manager | Website Content Admin",
+  title: "WordPress & Full-Stack Web Developer | SEO / GEO Specialist | Website Manager",
   location: "Binangonan, Rizal, Philippines",
   phone: "+63 929 383 2505",
   email: "lorie.ann.b.pascual@gmail.com",
@@ -8,10 +8,26 @@ export const profile = {
   site: "https://lorieannpascual.netlify.app",
   resume: "/resume.pdf",
   blurb:
-    "I manage and grow WordPress websites end-to-end — content operations, custom theme and page-builder development, technical SEO, performance tuning, and AI-assisted workflows. I like turning messy migrations and slow sites into fast, findable, well-organized ones that are easy to run long after launch.",
+    "I build and manage websites end-to-end — from WordPress and GoHighLevel builds to full-stack Next.js applications — with technical SEO, GEO (AI-search optimization), CRM automation, and email deliverability built in. I like turning messy migrations and slow sites into fast, findable, well-organized ones that are easy to run long after launch.",
 };
 
 export const experience = [
+  {
+    company: "Independent Contractor",
+    role: "Senior Web Developer",
+    period: "Aug 2026 – Present",
+    points: [
+      "Built full-stack web applications for healthcare and staffing clients — a plagiarism checker, an email marketing system, and an HRIS platform — using Next.js with AI-assisted development, deployed on Vercel and Supabase.",
+      "Structured content for retrieval and citation by AI answer engines (ChatGPT, Perplexity, Google AI Overviews) with entity-based SEO, Q&A formatting, and schema markup; built AI system prompts for SEO advisory and content-enhancement workflows.",
+      "Executed technical and on-page SEO — keyword research, competitor analysis, content gap analysis, and structured blog expansion — tracked through Google Search Console and GA4.",
+      "Built and optimized GoHighLevel CRM workflows: configured automations, resolved duplicate-trigger issues, and troubleshot batch email campaigns to improve deliverability and reliability.",
+      "Diagnosed and resolved email quarantine issues caused by self-addressed mail patterns in CRM workflows (Proofpoint / GoDaddy Advanced Email Security); managed mailbox provisioning and sender configuration to restore reliable delivery.",
+      "Administered DNS across split GoDaddy/GHL infrastructure — domain transfers, record configuration, and verification of mail and traffic routing.",
+      "Delivered full website builds on GoHighLevel and WordPress/Elementor, including custom Google Reviews sections, schema markup, and Google Analytics/GTM implementation.",
+      "Structured brand identity guidelines from clients' existing visual assets, creating documented brand catalogs for consistent use across web and marketing materials.",
+      "Built and iterated on a Vite-based frontend theme and converted it into a WordPress theme with Elementor compatibility.",
+    ],
+  },
   {
     company: "MBVA 24-7",
     role: "WordPress Developer",
@@ -32,7 +48,7 @@ export const experience = [
     points: [
       "Developed and launched client sites using WordPress, Wix, and GoDaddy, ensuring cross-browser compatibility and brand alignment.",
       "Integrated AI tools for rapid content updates and handled technical troubleshooting for legacy WordPress installations.",
-      "Managed a client's WordPress/WooCommerce store and resolved an email-deliverability issue affecting order and inquiry notifications to a Yahoo inbox.",
+      "Managed a client's WordPress/WooCommerce store — updating content and fixing minor layout issues — and resolved an email-deliverability problem where order and inquiry notifications were failing to reach the client's Yahoo inbox.",
     ],
   },
   {
@@ -40,7 +56,7 @@ export const experience = [
     role: "Project-based Frontend Developer",
     period: "Jun 2024 – Apr 2025",
     points: [
-      "Developed a high-fidelity, responsive master template in GoHighLevel for karate-school clients, using custom HTML/CSS/JS to overcome GHL page-builder limitations.",
+      "Developed a high-fidelity, responsive master template in GoHighLevel from a handed-over design for karate-school clients, using custom HTML/CSS/JS to overcome GHL page-builder limitations, particularly around responsiveness.",
       "Collaborated with the developer team to replicate the master template across nearly 10 sub-accounts.",
       "Assigned to lead development of a cleaning-service/staffing site after the senior developer left the agency.",
       "Managed a client's WordPress site, creating and updating pages with handed-over content.",
@@ -62,9 +78,9 @@ export const experience = [
     role: "Junior WordPress Developer",
     period: "Mar 2022 – Jun 2023",
     points: [
-      "Improved site performance and rankings via 301 redirects, WebP image conversion, and internal/external linking (RankMath, Yoast).",
+      "Improved site performance and rankings via 301 redirects to eliminate 404 errors, WebP image conversion, and internal/external linking per the SEO team's recommendations (RankMath, Yoast).",
       "Contributed to a 5-person team building custom WordPress themes via manual coding (HTML, CSS, JS, PHP) and Elementor.",
-      "Promoted to lead developer after senior team members departed; led development of the CA Facilities website and a restaurant website on custom WordPress themes with Elementor.",
+      "Promoted to lead developer after senior team members departed; led development of the CA Facilities website and a restaurant website on custom WordPress themes with Elementor and custom Elementor widgets (sliders, icons, badges/tags).",
       "Published blogs and built pages across Drupal, Wix, Webflow, and Magnolia.",
       "Bulk-uploaded and managed hundreds of products on Shopify.",
       "Implemented tracking via Google Analytics, Tag Manager, and Search Console.",
@@ -112,24 +128,24 @@ export const projects = [
 
 export const skills = [
   {
-    group: "Website Management & WordPress",
-    items: ["WordPress Site Administration", "Content Operations", "Elementor Pro", "Breakdance", "Oxygen", "WPBakery", "Divi", "Wix Studio", "Webflow", "ACF", "Custom Post Types"],
-  },
-  {
-    group: "AI & Automation",
-    items: ["Prompt Engineering", "AI-Assisted Development (Claude, ChatGPT)", "AI Content & SEO Workflows", "Make", "Zapier", "Airtable"],
-  },
-  {
     group: "Development",
-    items: ["HTML5", "CSS3 / Bootstrap / Tailwind / SCSS", "JavaScript / jQuery", "PHP", "React (Vite) / Laravel — basics"],
+    items: ["HTML5", "CSS3 / Bootstrap / Tailwind / SCSS", "JavaScript / jQuery", "PHP", "ACF", "Custom Post Types", "Next.js", "React / Vite", "Laravel — basics"],
   },
   {
-    group: "SEO & Analytics",
-    items: ["Keyword Research", "Schema Markup", "Google Search Console", "Google Analytics", "GTM", "Microsoft Clarity", "Bing Webmaster Tools", "RankMath", "Yoast", "AIOSEO", "Slim SEO"],
+    group: "CMS & Builders",
+    items: ["WordPress", "Elementor Pro", "Breakdance", "Oxygen", "WPBakery", "Divi", "Wix Studio", "Webflow"],
   },
   {
-    group: "Tools & Hosting",
-    items: ["HubSpot", "Zoho", "GoHighLevel", "Git / GitHub", "Bitbucket", "VS Code", "Figma", "Canva", "CapCut", "cPanel", "phpMyAdmin", "WPEngine", "SiteGround", "Hostinger", "WPX", "WinSCP", "FileZilla", "Laragon", "VirtualBox (Linux)"],
+    group: "SEO, GEO & Analytics",
+    items: ["Keyword Research", "GEO / AEO (AI-search optimization)", "Schema Markup", "Semantic SEO", "GSC", "Google Analytics (GA4)", "GTM", "Microsoft Clarity", "Bing Webmaster Tools", "RankMath", "Yoast", "AIOSEO", "Slim SEO", "Ubersuggest"],
+  },
+  {
+    group: "Automation & Tools",
+    items: ["Make", "Zapier", "Airtable", "HubSpot", "Zoho", "GoHighLevel", "Git / GitHub", "Bitbucket", "VS Code", "Figma", "Canva", "CapCut", "cPanel", "phpMyAdmin"],
+  },
+  {
+    group: "Hosting, DevOps & Deployment",
+    items: ["Vercel", "Supabase", "WPEngine", "SiteGround", "Hostinger", "WPX", "WinSCP", "FileZilla", "Laragon", "VirtualBox (Linux)"],
   },
 ];
 
